@@ -1,0 +1,14 @@
+C:\Users\Usama Hameed\source\repos\AssignmentTask1\AssignmentTask1\obj\Debug\AssignmentTask1.csproj.AssemblyReference.cache
+C:\Users\Usama Hameed\source\repos\AssignmentTask1\AssignmentTask1\obj\Debug\AssignmentTask1.csproj.CoreCompileInputs.cache
+C:\Users\Usama Hameed\source\repos\AssignmentTask1\AssignmentTask1\bin\Debug\AssignmentTask1.exe.config
+C:\Users\Usama Hameed\source\repos\AssignmentTask1\AssignmentTask1\bin\Debug\AssignmentTask1.exe
+C:\Users\Usama Hameed\source\repos\AssignmentTask1\AssignmentTask1\bin\Debug\AssignmentTask1.pdb
+C:\Users\Usama Hameed\source\repos\AssignmentTask1\AssignmentTask1\obj\Debug\AssignmentTask1.exe
+C:\Users\Usama Hameed\source\repos\AssignmentTask1\AssignmentTask1\obj\Debug\AssignmentTask1.pdb
+C:\Users\Usama Hameed\source\repos\ProjectAssignment1\AssignmentTask1\bin\Debug\AssignmentTask1.exe.config
+C:\Users\Usama Hameed\source\repos\ProjectAssignment1\AssignmentTask1\bin\Debug\AssignmentTask1.exe
+C:\Users\Usama Hameed\source\repos\ProjectAssignment1\AssignmentTask1\bin\Debug\AssignmentTask1.pdb
+C:\Users\Usama Hameed\source\repos\ProjectAssignment1\AssignmentTask1\obj\Debug\AssignmentTask1.csproj.AssemblyReference.cache
+C:\Users\Usama Hameed\source\repos\ProjectAssignment1\AssignmentTask1\obj\Debug\AssignmentTask1.csproj.CoreCompileInputs.cache
+C:\Users\Usama Hameed\source\repos\ProjectAssignment1\AssignmentTask1\obj\Debug\AssignmentTask1.exe
+C:\Users\Usama Hameed\source\repos\ProjectAssignment1\AssignmentTask1\obj\Debug\AssignmentTask1.pdb
