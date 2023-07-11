@@ -1,7 +1,12 @@
 using System;
 using System.Collections.Generic;
 
-public class Animal
+public interface ISoundBehaviour
+{
+    void MakeSound();
+}
+
+public abstract class Animal
 {
     public string Name { get; set; }
     public int Age { get; set; }
@@ -14,13 +19,11 @@ public class Animal
         Species = species;
     }
 
-    public virtual void Eat()
-    {
-        Console.WriteLine($"{Name} the {Species} is eating.");
-    }
+    public abstract void Eat();
+    public abstract void Eat(string food);
 }
 
-public class Lion : Animal
+public class Lion : Animal, ISoundBehaviour
 {
     public Lion(string name, int age) : base(name, age, "Lion")
     { }
@@ -30,13 +33,18 @@ public class Lion : Animal
         Console.WriteLine($"{Name} the Lion is eating meat.");
     }
 
-    public void Roar()
+    public override void Eat(string food)
+    {
+        Console.WriteLine($"{Name} the Lion is eating {food}.");
+    }
+
+    public void MakeSound()
     {
         Console.WriteLine($"{Name} the Lion is roaring!");
     }
 }
 
-public class Elephant : Animal
+public class Elephant : Animal, ISoundBehaviour
 {
     public Elephant(string name, int age) : base(name, age, "Elephant")
     { }
@@ -46,13 +54,18 @@ public class Elephant : Animal
         Console.WriteLine($"{Name} the Elephant is eating peanuts.");
     }
 
-    public void Trumpet()
+    public override void Eat(string food)
+    {
+        Console.WriteLine($"{Name} the Elephant is eating {food}.");
+    }
+
+    public void MakeSound()
     {
         Console.WriteLine($"{Name} the Elephant is trumpeting!");
     }
 }
 
-public class Monkey : Animal
+public class Monkey : Animal, ISoundBehaviour
 {
     public Monkey(string name, int age) : base(name, age, "Monkey")
     { }
@@ -62,9 +75,14 @@ public class Monkey : Animal
         Console.WriteLine($"{Name} the Monkey is eating bananas.");
     }
 
-    public void Climb()
+    public override void Eat(string food)
     {
-        Console.WriteLine($"{Name} the Monkey is climbing a tree!");
+        Console.WriteLine($"{Name} the Monkey is eating {food}.");
+    }
+
+    public void MakeSound()
+    {
+        Console.WriteLine($"{Name} the Monkey is hooting!");
     }
 }
 
@@ -105,8 +123,17 @@ class Program
         zoo.AddAnimal(lion);
         zoo.AddAnimal(elephant);
         zoo.AddAnimal(monkey);
+
         zoo.FeedAllAnimals();
 
+        lion.MakeSound();
+        elephant.MakeSound();
+        monkey.MakeSound();
 
+        lion.Eat("steak");
+        elephant.Eat("apples");
+        monkey.Eat("mangoes");
+
+        Console.ReadKey();
     }
 }
