@@ -1,0 +1,7 @@
+C:\Users\4882\source\repos\Assignment2_Task2_v2\Assignment2_Task2_v2\obj\Debug\Assignment2_Task2_v2.csproj.AssemblyReference.cache
+C:\Users\4882\source\repos\Assignment2_Task2_v2\Assignment2_Task2_v2\obj\Debug\Assignment2_Task2_v2.csproj.CoreCompileInputs.cache
+C:\Users\4882\source\repos\Assignment2_Task2_v2\Assignment2_Task2_v2\bin\Debug\Assignment2_Task2_v2.exe.config
+C:\Users\4882\source\repos\Assignment2_Task2_v2\Assignment2_Task2_v2\bin\Debug\Assignment2_Task2_v2.exe
+C:\Users\4882\source\repos\Assignment2_Task2_v2\Assignment2_Task2_v2\bin\Debug\Assignment2_Task2_v2.pdb
+C:\Users\4882\source\repos\Assignment2_Task2_v2\Assignment2_Task2_v2\obj\Debug\Assignment2_Task2_v2.exe
+C:\Users\4882\source\repos\Assignment2_Task2_v2\Assignment2_Task2_v2\obj\Debug\Assignment2_Task2_v2.pdb
